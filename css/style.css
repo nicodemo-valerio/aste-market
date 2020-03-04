@@ -40,14 +40,14 @@ img {
     color: var(--color-3);
 }
 
-.wrapper, .wrapper-center {
+.wrapper {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 .wrapper-center {
     justify-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 .left-text {
     text-align: left;
