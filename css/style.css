@@ -40,7 +40,7 @@ img {
     color: var(--color-3);
 }
 
-.wrapper {
+.wrapper, .wrapper-center {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -258,6 +258,7 @@ footer a:hover {
 @keyframes cambia-immagine-2{
   0% {margin-left:0%;}
   50% {margin-left:-100%;}
+  100% {margin-left:100%;}
 }
 @keyframes cambia-immagine-10{
     0% {margin-left:0%;}
@@ -270,6 +271,7 @@ footer a:hover {
     70% {margin-left:-700%;}
     80% {margin-left:-800%;}
     90% {margin-left:-900%;}
+    100% {margin-left:100%;}
 }
 
 /* Il negozio */
