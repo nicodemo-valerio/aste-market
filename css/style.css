@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+  font-family: "Source+Code+Pro", Arial, Helvetica, sans-serif;
   color: var(--font);
   scroll-behavior: smooth;
 }
@@ -44,6 +44,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    max-width: 1280px;
 }
 .wrapper-center {
     justify-items: center;
@@ -243,10 +244,9 @@ footer a:hover {
 .immagini-10 {
     width: 1000%;
     animation: cambia-immagine-10 30s infinite;
-    animation-direction: alternate;
 }
 .immagine-1-su-10 {
-    float:left;
+    float: left;
     height: 100%;
     position: relative;
     z-index: 1;
@@ -258,7 +258,7 @@ footer a:hover {
 @keyframes cambia-immagine-2{
   0% {margin-left:0%;}
   50% {margin-left:-100%;}
-  100% {margin-left:100%;}
+  100% {margin-left:0%;}
 }
 @keyframes cambia-immagine-10{
     0% {margin-left:0%;}
@@ -271,7 +271,7 @@ footer a:hover {
     70% {margin-left:-700%;}
     80% {margin-left:-800%;}
     90% {margin-left:-900%;}
-    100% {margin-left:100%;}
+    100% {margin-left:0%;}
 }
 
 /* Il negozio */
