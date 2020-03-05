@@ -10,11 +10,14 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Source+Code+Pro", Arial, Helvetica, sans-serif;
+  font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
   color: var(--font);
   scroll-behavior: smooth;
 }
-h2 {font-size: 2rem;}
+h2 {
+    font-size: 2rem;
+    padding-left: 2rem;
+}
 a {
     color: var(--color-3);
 }
@@ -45,6 +48,7 @@ img {
     grid-template-columns: 1fr;
     gap: 1rem;
     max-width: 1280px;
+    padding: 0 2rem;
 }
 .wrapper-center {
     justify-items: center;
