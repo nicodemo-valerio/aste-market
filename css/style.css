@@ -52,7 +52,6 @@ img {
 }
 .wrapper-center {
     justify-items: center;
-    /* padding: 1rem; */
 }
 .left-text {
     text-align: left;
@@ -247,7 +246,7 @@ footer a:hover {
 /* Slideshow 10 immagini */
 .immagini-10 {
     width: 1000%;
-    animation: cambia-immagine-10 30s infinite;
+    animation: cambia-immagine-10 60s infinite;
 }
 .immagine-1-su-10 {
     float: left;
@@ -279,7 +278,6 @@ footer a:hover {
 }
 
 /* Il negozio */
-/* Negozio prodotti */
 .wrapper-multi-colonne {
     align-items: center;
     display: grid;
