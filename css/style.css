@@ -28,6 +28,7 @@ img {
 
 .big-font {
     font-size: 1.5rem;
+    padding: 0 2rem;
 }
 
 .button {
@@ -175,13 +176,16 @@ img {
 }
 
 #footer {
+    background: black;
+    color: var(--color-2);
     align-items: center;
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 0 1rem;
 }
 footer a:link {
-    color: var(--color-1);
+    color: white;
 }
 footer a:hover {
     text-decoration: none;
