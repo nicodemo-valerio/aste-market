@@ -46,6 +46,10 @@ img {
     background: var(--color-2);
     color: var(--color-3);
 }
+.top {
+  text-align: center;
+  padding: 1rem;
+}
 .wrapper, .wrapper-center {
     display: grid;
     grid-template-columns: 1fr;
