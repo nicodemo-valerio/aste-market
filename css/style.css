@@ -103,7 +103,7 @@ img {
 #home-section-1 {
     grid-column: 1 / 5;
     height: 100vh;
-    background: url("../immagini/home/bancone.JPG");
+    background: url("../immagini/home/bancone.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -178,7 +178,7 @@ img {
 #home-section-6 {
     grid-column: 1 / 5;
     height: 50vh;
-    background: url("../immagini/home/sopressa.JPG");
+    background: url("../immagini/home/sopressa.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
