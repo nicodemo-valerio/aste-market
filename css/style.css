@@ -317,3 +317,22 @@ p {
     width: 100%;
   }
 }
+
+/* GDPR */
+#gdpr {
+  background: white;
+  border: 1px solid black;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: pw;
+}
+#gdpr p {
+  font-size: 1rem;
+}
+.gdpr-button {
+    background: var(--color-3);
+    color: var(--color-2);
+    padding: 1rem;
+}
