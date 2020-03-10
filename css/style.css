@@ -327,7 +327,7 @@ p {
   left: 0;
   position: fixed;
   text-align: center;
-  width: pw;
+  width: 100vw;
 }
 #gdpr p {
   font-size: 1rem;
