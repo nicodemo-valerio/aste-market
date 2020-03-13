@@ -15,6 +15,7 @@ html {
   font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
   color: var(--color-1);
   scroll-behavior: smooth;
+  max-width: 1920px;
 }
 h2, h3 {
     text-align: center;
